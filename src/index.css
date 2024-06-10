@@ -1,0 +1,91 @@
+.title-limited{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+}
+
+.title-limited-1{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.title-limited-2{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.title-limited-4{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.grid-item-one{
+  width: 92vw;
+}
+
+.grid-item-two{
+  width: 45vw;
+}
+
+.grid-item-three{
+  width: 30vw;
+}
+
+.grid-item-four{
+  width: 22vw;
+}
+
+.list-item::-webkit-scrollbar {
+  display: none;
+}
+
+.TagLabel {
+  display: inline-block;
+  padding: 0 7px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  border: 1px solid transparent;
+  border-radius: 2em;
+}
+
+.ms-Persona-details{
+  padding: 0 0 0 6px !important;
+}
+
+.ms-Dialog-title{
+  padding: 6 40 6 12px;
+}
+
+.fileListIcon-97{
+  height: 0px !important;
+}
+
+.blur {
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.gen-panel{
+  width:85vw;
+  max-width:800px;
+  margin-top:10px;
+}
+
+.weui-mask, .weui-mask_transparent{
+  z-index: 1000999;
+}
+
+.weui-dialog{
+  z-index: 1009999;
+}

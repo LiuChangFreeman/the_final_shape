@@ -1,0 +1,14 @@
+{
+  "name": "the final shape",
+  "short_name": "final shape",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
